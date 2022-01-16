@@ -8,11 +8,11 @@ module.exports = {
         if (!command) return;
 
         try {
-            await command.execute(interaction);
+            await command.execute(interaction, client);
         } catch (error) {
             console.log(error);
             await interaction.reply({
-                content: `Ha ocurrido un error intentado ejecutar el comando ${interaction.commandName}`,
+                content: `Ha ocurrido un error intentado ejecutar el comando \`${interaction.commandName}\``,
                 ephemeral: true
             });
         }
