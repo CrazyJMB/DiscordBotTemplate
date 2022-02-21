@@ -1,4 +1,4 @@
-# CrazyJMB Discord bot Template
+# CrazyJMB Discord bot Template - Develop
 Template para crear un bot de discord.js/v.13
 
 ## Importante
